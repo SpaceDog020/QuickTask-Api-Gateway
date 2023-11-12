@@ -20,6 +20,10 @@ import { AppService } from './app.service';
               name: 'teams',
               url: 'http://localhost:3002/graphql',
             },
+            {
+              name: 'projects',
+              url: 'http://localhost:3003/graphql',
+            },
           ],
         }),
       },
